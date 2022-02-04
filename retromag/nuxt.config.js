@@ -45,7 +45,7 @@ export default {
   build: {
   },
   
-  generate: {
-    dir: 'public'
-  }
+  // generate: {
+  //   dir: 'public'
+  // }
 }
