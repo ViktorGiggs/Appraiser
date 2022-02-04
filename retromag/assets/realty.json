@@ -1,0 +1,85 @@
+{
+    "realtys": [
+        {
+            "id": "0",
+            "name": "Memphis Real Estate Agency",
+            "description": "We know what's best!",
+            "video": "@/assets/video/video_carpet.mp4",
+            "img": "https://64.media.tumblr.com/01fba39d9b5ae9f49bae68edcbb977c3/ce65afe7c70740f7-f9/s1280x1920/cda08e246d3b930a02111ba1e3e0bac2faaec7d5.jpg",
+            "items": [
+                {
+                    "id": "0",
+                    "title": "Southern Edition. Comfort of rental housing.",
+                    "img": "https://64.media.tumblr.com/ebefada469f70dc8908b00d19702108b/a0039ac0ddbe4bb4-6d/s2048x3072/b057cab6c1957d3f608d6e2ed9615acf71f0ed05.png",
+                    "price": "4.1/5"
+                },
+                {
+                    "id": "1",
+                    "title": "Southern 1408 Comfort of rental housing.",
+                    "img": "https://64.media.tumblr.com/a9afb685f03a9228d701d32cbdfb519a/3299ec40a1d4e6d9-ce/s2048x3072/455caad0fbc8b4186155571562e2a9e889ad79cb.png",
+                    "price": "4.2/5"
+                },
+                {
+                    "id": "2",
+                    "title": "West side 11/22. Comfort of rental housing.",
+                    "img": "https://64.media.tumblr.com/84b847b5412e1ced75492d2400a12ed9/aea93d7b9dd79137-4d/s2048x3072/33339563b37f4a17d3c4e20f0d92fef359e06dd7.png",
+                    "price": "4.3/5"
+                },
+                {
+                    "id": "3",
+                    "title": "Build st.Loft 22. Comfort of rental housing.",
+                    "img": "https://64.media.tumblr.com/ab5443a85533585b0d69526520a9bab1/c1ede14aaf3a5051-5c/s2048x3072/8ba2b2608f2eb44bdb9a81222822fbf2c4369a78.png",
+                    "price": "4.4/5"
+                },
+                {
+                    "id": "4",
+                    "title": "Overton Park. Comfort of rental housing.",
+                    "img": "https://64.media.tumblr.com/b76d79e45885b3ac864c709fb4ff4e08/718a53b358395c6f-8b/s2048x3072/6db985d613d10ce9c337c29f0bf9c12d0e731840.png",
+                    "price": "4.5/5"
+                },
+                {
+                    "id": "5",
+                    "title": "Mirabel st. 74/22. Comfort of rental housing.",
+                    "img": "https://64.media.tumblr.com/9e166bec6444eac5139eae567f67d7ee/bcee93e404d3d767-a3/s2048x3072/a5cf4390264929263c33b03ec6c6f6cc26e0643c.png",
+                    "price": "4.6/5"
+                },
+                {
+                    "id": "6",
+                    "title": "Vigly station. Comfort of rental housing.",
+                    "img": "https://64.media.tumblr.com/37fe9baff2d9adf599446ca8c0022a94/681179931c1fd02b-97/s2048x3072/ac19217ee24c8950b4b2d09cb4d950fcdac9f3c9.png",
+                    "price": "4.7/5"
+                },
+                {
+                    "id": "7",
+                    "title": "Read st. 87/150. Comfort of rental housing.",
+                    "img": "https://64.media.tumblr.com/4d686c966882927da94decaaa0149672/f673794b4c5cc959-af/s2048x3072/002b3192558fe8b7db67fac508601a76d004e048.png",
+                    "price": "4.8/5"
+                },
+                {
+                    "id": "8",
+                    "title": "Toran beach 48. Comfort of rental housing.",
+                    "img": "https://64.media.tumblr.com/181420139787d7c63551d4d6bc7c3111/b279dfa4af0b454d-4e/s2048x3072/ea48cb41b0ebd90b8b6ad006e953ef2f887f0313.png",
+                    "price": "4.7/5"
+                },
+                {
+                    "id": "9",
+                    "title": "Central ofice 1. Comfort of rental housing.",
+                    "img": "https://64.media.tumblr.com/0d7d6578e0b58134a23ff51a611a6548/92b0703297c32eeb-bf/s2048x3072/8b5740a22f3d804a9d59197490e91cb0862d8852.png",
+                    "price": "5/5"
+                },
+                {
+                    "id": "10",
+                    "title": "Vivilian bridge 16. Comfort of rental housing.",
+                    "img": "https://64.media.tumblr.com/44c90550624024a9badf084c480faf34/ecf4517588c4f4bc-20/s2048x3072/cebd837613e3e0ed814e7c8850fa641ecfe56456.png",
+                    "price": "4.9/5"
+                },
+                {
+                    "id": "11",
+                    "title": "Lara`s Bring st. 13. Comfort of rental housing.",
+                    "img": "https://64.media.tumblr.com/70d0658ec8875d42d8c35bb972e4f67d/6dc6b22aaec3b563-fd/s2048x3072/a8c44eedcee3cdd6020e24066b87a01c9685a7bd.png",
+                    "price": "4.6/5"
+                }
+            ]
+        }
+    ]
+}

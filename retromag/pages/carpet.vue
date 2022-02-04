@@ -1,0 +1,107 @@
+<template>
+    <div class="container text-over mt-5">
+        <div class="row">
+            <div class="col-md-4 mt-5" v-for="(carpet, index) in carpets" :key="'carpet-' + index">
+                <div class="card mb-3">
+                    <img :src="carpet.img" class="card-img-top card__carpet-img" alt="carpet">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            {{ carpet.title }}
+                        </h5>
+                        <p class="card-text">
+                            {{ carpet.price }} &#11088;
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+
+export default {
+    layout: 'firstpage',
+    data() {
+        return {
+            carpets: [
+                {
+                    "id": "0",
+                    "title": "Lezgi carpet. Soft, cozy and beautiful",
+                    "img": "https://64.media.tumblr.com/bcd91c55f8220d2d069c7b69c335300f/bf13639f2d37ce86-51/s400x600/98226d63abb1cf7c7529e1516aa0944e609be2bc.jpg",
+                    "price": "3.2/5"
+                },
+                {
+                    "id": "1",
+                    "title": "Hollywood carpet. Soft, cozy and beautiful",
+                    "img": "https://64.media.tumblr.com/da38ba91078f6d741b97c64ddd4457b6/54a470b715d11ec4-72/s400x600/2619739e22b43fd2c265e8a3341a90a64c8d8a35.jpg",
+                    "price": "4/5"
+                },
+                {
+                    "id": "2",
+                    "title": "Neo-memphis carpet. Soft, cozy and beautiful",
+                    "img": "https://64.media.tumblr.com/c2aa682ed4a2f14b8b4528a4c1413939/32a2528bb1e652ff-bc/s400x600/be7885c4657406ecead6788b952df4b3b79f872a.jpg",
+                    "price": "5/5"
+                },
+                {
+                    "id": "3",
+                    "title": "Coca-Cola Carpet. Soft, cozy and beautiful",
+                    "img": "https://64.media.tumblr.com/54299ec8690dc598fbeb9a640c983fe2/f3c04ac6abf90bb2-0e/s400x600/f02cf30fdbe04e0a007201125322ad18c3e7b0b2.jpg",
+                    "price": "3.8/5"
+                },
+                {
+                    "id": "4",
+                    "title": "Memphis rug. Soft, cozy and beautiful",
+                    "img": "https://64.media.tumblr.com/8fd9ba6a6ae118ab93310ebe825e3259/e50dc8f5a9417d25-0d/s400x600/5d990c36e9565c852fc72e9af247a75fa0b250ab.jpg",
+                    "price": "5/5"
+                },
+                {
+                    "id": "5",
+                    "title": "Secret carpet. Soft, cozy and beautiful",
+                    "img": "https://64.media.tumblr.com/ecf9e452ef06ef8627deb8ceab4b70a1/aa654067178c2a4e-00/s400x600/79f291e762b02128fdf0f741bea4b285617747a7.jpg",
+                    "price": "4.2/5"
+                },
+                {
+                    "id": "6",
+                    "title": "Arcade carpet. Soft, cozy and beautiful",
+                    "img": "https://64.media.tumblr.com/243f7bb28391941ade87ab357625bd44/726a7d1c67fb9818-98/s2048x3072/1f13826d9334f2855afc91a4acb1923b753063ce.png",
+                    "price": "2.8/5"
+                },
+                {
+                    "id": "7",
+                    "title": "Vibewx carpet. Soft, cozy and beautiful",
+                    "img": "https://64.media.tumblr.com/60c20f0986d93f1d627b68caa312f2da/915799f3588ba36b-6b/s400x600/2129be43538d42765e1aabc3f92d1e250974e241.jpg",
+                    "price": "1.3/5"
+                },
+                {
+                    "id": "8",
+                    "title": "Necklace carpet. Soft, cozy and beautiful",
+                    "img": "https://64.media.tumblr.com/cd993d16a2f955619f398682865d1087/0ee540309b760b3a-75/s400x600/4466f2237257c9cd31821ef609d314830e0b8ad0.jpg",
+                    "price": "2.8/5"
+                },
+                {
+                    "id": "9",
+                    "title": "Sunset carpet. Soft, cozy and beautiful",
+                    "img": "https://64.media.tumblr.com/6858d44edee5a76a3263a04a4148a249/tumblr_pxon2si4rJ1sywf0oo1_400.png",
+                    "price": "4.5/5"
+                },
+                {
+                    "id": "10",
+                    "title": "Grunge carpet. Soft, cozy and beautiful",
+                    "img": "https://64.media.tumblr.com/f2812e64be5316a8386193f043924c55/da042c33b811e5d4-d0/s400x600/81be2747e2ee19960953f46cceb3d1baf25530f2.jpg",
+                    "price": "3.9/5 "
+                },
+                {
+                    "id": "11",
+                    "title": "Digital carpet. Soft, cozy and beautiful",
+                    "img": "https://64.media.tumblr.com/b0cc2ba844d5c9cea15f9afcb19783b6/c784a4dc13c22907-c8/s400x600/ba4bd8560d6d0e44ccabe7ace6d8c14a377046ba.jpg",
+                    "price": "4/5"
+                }
+            ]
+        }
+    },
+    head: {
+    title: 'Carpets'
+    }
+}
+</script>
