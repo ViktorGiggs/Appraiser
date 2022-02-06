@@ -3,7 +3,7 @@
     <section>
             <nav class="navbar fixed-top navbar-expand-lg navbar-light header">
             <div class="container">
-                <a class="navbar-brand" href="https://www.linkedin.com/in/viktor-shostak-617b0b155/"><img src="/General/pictures/in.png" alt="linkedin"><Logo/></a>
+                <a class="navbar-brand" href="https://www.linkedin.com/in/viktor-shostak-617b0b155/"><Logo/></a>
                 <button
                     class="navbar-toggler"
                     type="button"
